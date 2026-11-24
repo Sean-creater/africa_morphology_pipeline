@@ -7,19 +7,6 @@ typology/regional/hierarchy/center-periphery analysis.
 
 ## Pipeline stages
 
-```
-01_hex_grid_workflow/  ──250m grid──►  02_morphology_metrics/
-                                               │
-                        ┌──────────────────────┴──────────────────────┐
-                        ▼                                              ▼
-              03_morphology_imagery/                                   │
-                        │                                              │
-                        ▼                                              │
-              04_morphology_embedding/ ────embeddings──────────────────┤
-                                                                        ▼
-                                                      05_morphology_analysis/
-```
-
 1. [`01_hex_grid_workflow/`](01_hex_grid_workflow/) — builds the
    standardized 250 m hexagonal grid over African cities, with
    building height/volume, population, and land cover statistics.
