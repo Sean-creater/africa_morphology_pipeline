@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="650" viewBox="0 0 1040 650">
+<rect width="100%" height="100%" fill="white"/>
+<text x="82" y="30" font-family="Arial" font-size="20" fill="#222">4 choose 3 overview: case-average harmonic mean</text>
+<line x1="82" y1="572" x2="780" y2="572" stroke="#222"/>
+<line x1="82" y1="52" x2="82" y2="572" stroke="#222"/>
+<line x1="82" y1="572.0" x2="780" y2="572.0" stroke="#e6e6e6"/>
+<text x="70" y="577.0" text-anchor="end" font-family="Arial" font-size="14">0.00</text>
+<line x1="82" y1="442.0" x2="780" y2="442.0" stroke="#e6e6e6"/>
+<text x="70" y="447.0" text-anchor="end" font-family="Arial" font-size="14">0.25</text>
+<line x1="82" y1="312.0" x2="780" y2="312.0" stroke="#e6e6e6"/>
+<text x="70" y="317.0" text-anchor="end" font-family="Arial" font-size="14">0.50</text>
+<line x1="82" y1="182.0" x2="780" y2="182.0" stroke="#e6e6e6"/>
+<text x="70" y="187.0" text-anchor="end" font-family="Arial" font-size="14">0.75</text>
+<line x1="82" y1="52.0" x2="780" y2="52.0" stroke="#e6e6e6"/>
+<text x="70" y="57.0" text-anchor="end" font-family="Arial" font-size="14">1.00</text>
+<polyline fill="none" stroke="#b2182b" stroke-width="2.7" points="82.0,281.2 106.9,294.7 131.9,312.0 156.8,293.4 181.7,365.2 206.6,317.0 231.6,268.1 256.5,320.7 281.4,319.9 306.4,308.2 331.3,281.7 356.2,325.4 381.1,308.3 406.1,355.7 431.0,322.4 455.9,292.6 480.9,318.2 505.8,353.1 530.7,381.7 555.6,330.0 580.6,357.9 605.5,294.2 630.4,359.5 655.4,305.8 680.3,280.6 705.2,334.7 730.1,322.5 755.1,311.6 780.0,409.4"/>
+<circle cx="231.6" cy="268.1" r="4" fill="#b2182b"/>
+<line x1="810" y1="78" x2="840" y2="78" stroke="#b2182b" stroke-width="3"/>
+<text x="850" y="83" font-family="Arial" font-size="13">omit 2026-05-28T13-44-27</text>
+<text x="850" y="101" font-family="Arial" font-size="13" fill="#555">best k=8, score=0.584</text>
+<polyline fill="none" stroke="#2166ac" stroke-width="2.7" points="82.0,281.2 106.9,285.7 131.9,292.0 156.8,285.1 181.7,354.4 206.6,300.7 231.6,266.0 256.5,290.2 281.4,293.6 306.4,302.5 331.3,269.7 356.2,313.4 381.1,290.2 406.1,338.3 431.0,302.8 455.9,267.9 480.9,284.5 505.8,333.7 530.7,353.1 555.6,320.6 580.6,322.9 605.5,274.2 630.4,335.4 655.4,278.1 680.3,288.4 705.2,291.6 730.1,314.3 755.1,295.0 780.0,383.1"/>
+<circle cx="231.6" cy="266.0" r="4" fill="#2166ac"/>
+<line x1="810" y1="140" x2="840" y2="140" stroke="#2166ac" stroke-width="3"/>
+<text x="850" y="145" font-family="Arial" font-size="13">omit 2026-05-29T12-21-34</text>
+<text x="850" y="163" font-family="Arial" font-size="13" fill="#555">best k=8, score=0.588</text>
+<polyline fill="none" stroke="#1b7837" stroke-width="2.7" points="82.0,277.6 106.9,290.9 131.9,299.6 156.8,293.4 181.7,371.8 206.6,302.8 231.6,266.0 256.5,286.9 281.4,301.6 306.4,304.3 331.3,273.6 356.2,307.9 381.1,286.9 406.1,319.9 431.0,325.2 455.9,286.5 480.9,289.8 505.8,333.7 530.7,340.0 555.6,317.7 580.6,322.9 605.5,254.9 630.4,309.6 655.4,270.3 680.3,263.0 705.2,307.8 730.1,295.9 755.1,286.2 780.0,369.9"/>
+<circle cx="605.5" cy="254.9" r="4" fill="#1b7837"/>
+<line x1="810" y1="202" x2="840" y2="202" stroke="#1b7837" stroke-width="3"/>
+<text x="850" y="207" font-family="Arial" font-size="13">omit 2026-06-01T22-15-41</text>
+<text x="850" y="225" font-family="Arial" font-size="13" fill="#555">best k=23, score=0.610</text>
+<polyline fill="none" stroke="#7b3294" stroke-width="2.7" points="82.0,279.4 106.9,296.6 131.9,335.6 156.8,302.8 181.7,373.7 206.6,309.6 231.6,277.1 256.5,325.1 281.4,319.9 306.4,312.3 331.3,294.9 356.2,339.3 381.1,325.1 406.1,360.5 431.0,325.2 455.9,305.8 480.9,321.9 505.8,343.1 530.7,397.0 555.6,365.3 580.6,372.5 605.5,305.6 630.4,380.3 655.4,299.0 680.3,319.9 705.2,347.0 730.1,362.2 755.1,326.9 780.0,443.6"/>
+<circle cx="231.6" cy="277.1" r="4" fill="#7b3294"/>
+<line x1="810" y1="264" x2="840" y2="264" stroke="#7b3294" stroke-width="3"/>
+<text x="850" y="269" font-family="Arial" font-size="13">omit 2026-06-04T08-54-56</text>
+<text x="850" y="287" font-family="Arial" font-size="13" fill="#555">best k=8, score=0.567</text>
+<text x="82.0" y="602" text-anchor="middle" font-family="Arial" font-size="13">2</text>
+<text x="131.9" y="602" text-anchor="middle" font-family="Arial" font-size="13">4</text>
+<text x="181.7" y="602" text-anchor="middle" font-family="Arial" font-size="13">6</text>
+<text x="231.6" y="602" text-anchor="middle" font-family="Arial" font-size="13">8</text>
+<text x="281.4" y="602" text-anchor="middle" font-family="Arial" font-size="13">10</text>
+<text x="331.3" y="602" text-anchor="middle" font-family="Arial" font-size="13">12</text>
+<text x="381.1" y="602" text-anchor="middle" font-family="Arial" font-size="13">14</text>
+<text x="431.0" y="602" text-anchor="middle" font-family="Arial" font-size="13">16</text>
+<text x="480.9" y="602" text-anchor="middle" font-family="Arial" font-size="13">18</text>
+<text x="530.7" y="602" text-anchor="middle" font-family="Arial" font-size="13">20</text>
+<text x="580.6" y="602" text-anchor="middle" font-family="Arial" font-size="13">22</text>
+<text x="630.4" y="602" text-anchor="middle" font-family="Arial" font-size="13">24</text>
+<text x="680.3" y="602" text-anchor="middle" font-family="Arial" font-size="13">26</text>
+<text x="730.1" y="602" text-anchor="middle" font-family="Arial" font-size="13">28</text>
+<text x="780.0" y="602" text-anchor="middle" font-family="Arial" font-size="13">30</text>
+<text x="431.0" y="628" text-anchor="middle" font-family="Arial" font-size="16">Number of clusters (k)</text>
+<text x="22" y="312.0" text-anchor="middle" font-family="Arial" font-size="16" transform="rotate(-90 22 312.0)">Harmonic mean</text>
+</svg>

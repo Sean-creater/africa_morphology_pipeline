@@ -1,0 +1,8 @@
+group_id,retained_features,merged_removed_features,reason
+1,CoverRatio,OpenRatio,CoverRatio and OpenRatio are complementary coverage indicators.
+2,LCF_Built,LC_Built,LC_Built and LCF_Built both describe built-up cover; the continuous fraction is retained.
+3,StreetDens;NodeDens,SegmentDen,"StreetDens, SegmentDen, and NodeDens describe street-network density; StreetDens and NodeDens are retained."
+4,DeadendDen,DeadendCnt,DeadendDen and DeadendCnt describe dead-end prevalence; density is retained.
+5,InterDens,InterCnt,InterDens and InterCnt describe intersection prevalence; density is retained.
+6,Ratio3way,ThreeWayCnt,Ratio3way and ThreeWayCnt describe three-way intersections; ratio is retained.
+7,Ratio4way,FourWayCnt,Ratio4way and FourWayCnt describe four-way intersections; ratio is retained.

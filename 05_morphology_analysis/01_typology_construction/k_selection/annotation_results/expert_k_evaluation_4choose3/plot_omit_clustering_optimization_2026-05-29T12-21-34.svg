@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="650" viewBox="0 0 1040 650">
+<rect width="100%" height="100%" fill="white"/>
+<text x="82" y="30" font-family="Arial" font-size="20" fill="#222">4 choose 3: omit clustering_optimization_2026-05-29T12-21-34.csv</text>
+<line x1="82" y1="572" x2="1002" y2="572" stroke="#222"/>
+<line x1="82" y1="52" x2="82" y2="572" stroke="#222"/>
+<line x1="82" y1="572.0" x2="1002" y2="572.0" stroke="#e6e6e6"/>
+<text x="70" y="577.0" text-anchor="end" font-family="Arial" font-size="14">0.00</text>
+<line x1="82" y1="442.0" x2="1002" y2="442.0" stroke="#e6e6e6"/>
+<text x="70" y="447.0" text-anchor="end" font-family="Arial" font-size="14">0.25</text>
+<line x1="82" y1="312.0" x2="1002" y2="312.0" stroke="#e6e6e6"/>
+<text x="70" y="317.0" text-anchor="end" font-family="Arial" font-size="14">0.50</text>
+<line x1="82" y1="182.0" x2="1002" y2="182.0" stroke="#e6e6e6"/>
+<text x="70" y="187.0" text-anchor="end" font-family="Arial" font-size="14">0.75</text>
+<line x1="82" y1="52.0" x2="1002" y2="52.0" stroke="#e6e6e6"/>
+<text x="70" y="57.0" text-anchor="end" font-family="Arial" font-size="14">1.00</text>
+<text x="82.0" y="602" text-anchor="middle" font-family="Arial" font-size="13">2</text>
+<text x="147.7" y="602" text-anchor="middle" font-family="Arial" font-size="13">4</text>
+<text x="213.4" y="602" text-anchor="middle" font-family="Arial" font-size="13">6</text>
+<text x="279.1" y="602" text-anchor="middle" font-family="Arial" font-size="13">8</text>
+<text x="344.9" y="602" text-anchor="middle" font-family="Arial" font-size="13">10</text>
+<text x="410.6" y="602" text-anchor="middle" font-family="Arial" font-size="13">12</text>
+<text x="476.3" y="602" text-anchor="middle" font-family="Arial" font-size="13">14</text>
+<text x="542.0" y="602" text-anchor="middle" font-family="Arial" font-size="13">16</text>
+<text x="607.7" y="602" text-anchor="middle" font-family="Arial" font-size="13">18</text>
+<text x="673.4" y="602" text-anchor="middle" font-family="Arial" font-size="13">20</text>
+<text x="739.1" y="602" text-anchor="middle" font-family="Arial" font-size="13">22</text>
+<text x="804.9" y="602" text-anchor="middle" font-family="Arial" font-size="13">24</text>
+<text x="870.6" y="602" text-anchor="middle" font-family="Arial" font-size="13">26</text>
+<text x="936.3" y="602" text-anchor="middle" font-family="Arial" font-size="13">28</text>
+<text x="1002.0" y="602" text-anchor="middle" font-family="Arial" font-size="13">30</text>
+<polyline fill="none" stroke="#2166ac" stroke-width="2.8" points="82.0,130.0 114.9,112.7 147.7,268.7 180.6,147.3 213.4,156.0 246.3,182.0 279.1,130.0 312.0,251.3 344.9,208.0 377.7,156.0 410.6,251.3 443.4,251.3 476.3,251.3 509.1,329.3 542.0,190.7 574.9,164.7 607.7,199.3 640.6,338.0 673.4,329.3 706.3,268.7 739.1,286.0 772.0,216.7 804.9,364.0 837.7,199.3 870.6,277.3 903.4,199.3 936.3,303.3 969.1,242.7 1002.0,390.0"/>
+<polyline fill="none" stroke="#1b7837" stroke-width="2.8" points="82.0,355.3 114.9,364.0 147.7,312.0 180.6,355.3 213.4,424.7 246.3,364.0 279.1,338.0 312.0,320.7 344.9,346.7 377.7,372.7 410.6,286.0 443.4,355.3 476.3,320.7 509.1,346.7 542.0,364.0 574.9,329.3 607.7,338.0 640.6,329.3 673.4,372.7 706.3,357.4 739.1,351.4 772.0,315.8 804.9,297.6 837.7,329.3 870.6,298.7 903.4,347.3 936.3,324.4 969.1,332.9 1002.0,375.6"/>
+<polyline fill="none" stroke="#b2182b" stroke-width="2.8" points="82.0,281.2 114.9,285.7 147.7,292.0 180.6,285.1 213.4,354.4 246.3,300.7 279.1,266.0 312.0,290.2 344.9,293.6 377.7,302.5 410.6,269.7 443.4,313.4 476.3,290.2 509.1,338.3 542.0,302.8 574.9,267.9 607.7,284.5 640.6,333.7 673.4,353.1 706.3,320.6 739.1,322.9 772.0,274.2 804.9,335.4 837.7,278.1 870.6,288.4 903.4,291.6 936.3,314.3 969.1,295.0 1002.0,383.1"/>
+<polyline fill="none" stroke="#7b3294" stroke-width="2.8" points="82.0,260.0 114.9,309.9 147.7,273.6 180.6,318.8 213.4,371.1 246.3,300.7 279.1,260.0 312.0,288.4 344.9,294.7 377.7,371.1 410.6,225.3 443.4,335.4 476.3,304.6 509.1,357.9 542.0,329.3 574.9,244.6 607.7,233.0 640.6,351.8 673.4,393.2 706.3,329.7 739.1,344.3 772.0,235.8 804.9,356.8 837.7,229.2 870.6,270.0 903.4,262.6 936.3,289.8 969.1,287.8 1002.0,394.4"/>
+<line x1="279.1" y1="52" x2="279.1" y2="572" stroke="#b2182b" stroke-dasharray="6 5"/>
+<text x="287.1" y="72" font-family="Arial" font-size="15" fill="#b2182b">Best k=8, score=0.588</text>
+<line x1="782" y1="80" x2="812" y2="80" stroke="#2166ac" stroke-width="3"/>
+<text x="822" y="85" font-family="Arial" font-size="14">Separation</text>
+<line x1="782" y1="105" x2="812" y2="105" stroke="#1b7837" stroke-width="3"/>
+<text x="822" y="110" font-family="Arial" font-size="14">Compactness</text>
+<line x1="782" y1="130" x2="812" y2="130" stroke="#b2182b" stroke-width="3"/>
+<text x="822" y="135" font-family="Arial" font-size="14">Harmonic mean</text>
+<line x1="782" y1="155" x2="812" y2="155" stroke="#7b3294" stroke-width="3"/>
+<text x="822" y="160" font-family="Arial" font-size="14">Majority harmonic</text>
+<text x="542.0" y="628" text-anchor="middle" font-family="Arial" font-size="16">Number of clusters (k)</text>
+<text x="22" y="312.0" text-anchor="middle" font-family="Arial" font-size="16" transform="rotate(-90 22 312.0)">Score</text>
+</svg>

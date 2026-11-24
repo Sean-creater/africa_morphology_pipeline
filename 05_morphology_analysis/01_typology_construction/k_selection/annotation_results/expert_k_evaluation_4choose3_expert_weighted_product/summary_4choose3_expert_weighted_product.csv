@@ -1,0 +1,5 @@
+omitted_between_file,best_k,best_expert_weighted_product,best_expert_weighted_separation,best_expert_weighted_compactness,majority_vote_product_at_same_k,top5_expert_weighted_product
+clustering_optimization_2026-06-01T22-15-41.csv,23,0.39420289855072466,0.8,0.49275362318840576,0.46956521739130436,k=23:0.394; k=8:0.383; k=2:0.368; k=26:0.359; k=25:0.358
+clustering_optimization_2026-05-29T12-21-34.csv,8,0.3825,0.85,0.45,0.405,k=8:0.383; k=17:0.366; k=2:0.354; k=3:0.353; k=5:0.340
+clustering_optimization_2026-05-28T13-44-27.csv,8,0.375,0.8333333333333334,0.45,0.405,k=8:0.375; k=2:0.354; k=3:0.320; k=26:0.315; k=5:0.312
+clustering_optimization_2026-06-04T08-54-56.csv,2,0.3611111111111111,0.8666666666666667,0.41666666666666663,0.3825,k=2:0.361; k=8:0.345; k=3:0.313; k=5:0.285; k=12:0.284

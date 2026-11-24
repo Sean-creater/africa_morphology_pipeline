@@ -1,0 +1,5 @@
+omitted_between_file,best_k,best_case_average_harmonic_mean,top5_case_average_harmonic_mean
+clustering_optimization_2026-06-01T22-15-41.csv,23,0.6098654708520179,k=23:0.610; k=26:0.594; k=8:0.588; k=25:0.580; k=12:0.574
+clustering_optimization_2026-05-29T12-21-34.csv,8,0.5884615384615385,k=8:0.588; k=17:0.585; k=12:0.581; k=23:0.573; k=25:0.565
+clustering_optimization_2026-05-28T13-44-27.csv,8,0.5844155844155844,k=8:0.584; k=26:0.560; k=2:0.559; k=12:0.558; k=17:0.537
+clustering_optimization_2026-06-04T08-54-56.csv,8,0.5671232876712329,k=8:0.567; k=2:0.563; k=12:0.533; k=3:0.530; k=25:0.525

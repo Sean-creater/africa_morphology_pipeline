@@ -1,0 +1,31 @@
+name: africa_morphology_analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - pygam
+  - geopandas
+  - shapely
+  - pyproj
+  - libpysal
+  - networkx
+  - matplotlib
+  - pyarrow
+  - openpyxl
+  - opentsne
+  - pillow
+  - rasterio
+  - pip
+  - pip:
+      - python-igraph
+      - leidenalg
+      - earthengine-api
+      - requests
+      - google-auth
+      - google-auth-oauthlib
+      - google-api-python-client

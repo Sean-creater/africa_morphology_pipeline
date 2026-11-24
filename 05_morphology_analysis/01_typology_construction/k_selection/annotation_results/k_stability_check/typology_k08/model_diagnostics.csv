@@ -1,0 +1,2 @@
+model_samples,test_samples,accuracy,balanced_accuracy,permutation_repeats,importance_metric
+50002,12501,0.74234061275098,0.746297278867048,5,decrease in held-out balanced accuracy after feature permutation

@@ -1,0 +1,172 @@
+Short_Name,Full_Name,Data_Source,Momepy_Category,Statistic_Type,Description
+GridID,Grid Cell ID,Generated,Grid System,Identifier,Unique identifier for each hexagonal grid cell
+City,City Name,Generated,Grid System,Metadata,Name of the city or area
+Area_m2,Grid Cell Area,Generated,Grid System,Geometry,Area of hexagonal grid cell (square meters)
+Center_X,Grid Center X,Generated,Grid System,Geometry,X coordinate of grid cell center
+Center_Y,Grid Center Y,Generated,Grid System,Geometry,Y coordinate of grid cell center
+BldgCount,Building Count,Momepy,Intensity,Count,Number of buildings in grid cell
+Mean_Area,Mean Building Area,Momepy,Dimension,Mean,Mean area of buildings in grid cell (square meters)
+Max_Area,Max Building Area,Momepy,Dimension,Max,Maximum building area in grid cell (square meters)
+Std_Area,Std Building Area,Momepy,Diversity,Std,Standard deviation of building areas (diversity indicator)
+Mean_Perim,Mean Building Perimeter,Momepy,Dimension,Mean,Mean perimeter of buildings (meters)
+Max_Perim,Max Building Perimeter,Momepy,Dimension,Max,Maximum building perimeter (meters)
+Std_Perim,Std Building Perimeter,Momepy,Diversity,Std,Standard deviation of building perimeters (diversity)
+Mean_Court,Mean Courtyard Area,Momepy,Dimension,Mean,Mean courtyard area within buildings (square meters)
+Std_Court,Std Courtyard Area,Momepy,Diversity,Std,Standard deviation of courtyard areas (diversity)
+Mean_Longe,Mean Longest Axis Length,Momepy,Dimension,Mean,Mean longest axis length of buildings (meters)
+Max_Longe,Max Longest Axis Length,Momepy,Dimension,Max,Maximum longest axis length (meters)
+Std_Longe,Std Longest Axis Length,Momepy,Diversity,Std,Standard deviation of longest axis lengths (diversity)
+H_mean,Mean Building Height,WSF3D,Dimension,Mean,Mean building height from WSF3D (meters)
+H_max,Max Building Height,WSF3D,Dimension,Max,Maximum building height from WSF3D (meters)
+H_std,Std Building Height,WSF3D,Diversity,Std,Standard deviation of building heights (diversity)
+V_mean,Mean Building Volume,WSF3D,Dimension,Mean,Mean building volume inherited from previous grid (cubic meters)
+V_max,Max Building Volume,WSF3D,Dimension,Max,Maximum building volume inherited from previous grid (cubic meters)
+V_std,Std Building Volume,WSF3D,Diversity,Std,Standard deviation of building volumes inherited from previous grid (diversity)
+V_sum,Sum Building Volume,WSF3D,Intensity,Sum,Total building volume inherited from previous grid (cubic meters)
+Mean_Circu,Mean Circular Compactness,Momepy,Shape,Mean,Mean circular compactness (ratio of building area to circumscribed circle)
+Std_Circu,Std Circular Compactness,Momepy,Diversity,Std,Standard deviation of circular compactness (diversity)
+Mean_Squar,Mean Squareness,Momepy,Shape,Mean,Mean squareness index (similarity to square shape)
+Std_Squar,Std Squareness,Momepy,Diversity,Std,Standard deviation of squareness (diversity)
+Mean_Equiv,Mean Equivalent Rectangular Index,Momepy,Shape,Mean,Mean equivalent rectangular index (ERI)
+Std_Equiv,Std Equivalent Rectangular Index,Momepy,Diversity,Std,Standard deviation of ERI (diversity)
+Mean_Elong,Mean Elongation,Momepy,Shape,Mean,Mean elongation ratio of buildings
+Std_Elong,Std Elongation,Momepy,Diversity,Std,Standard deviation of elongation (diversity)
+Mean_Compa,Mean Compactness Weighted Axis,Momepy,Shape,Mean,Mean compactness weighted by axis length
+Std_Compa,Std Compactness Weighted Axis,Momepy,Diversity,Std,Standard deviation of compactness weighted axis (diversity)
+Mean_Conve,Mean Convexity,Momepy,Shape,Mean,Mean convexity (ratio of convex hull area to building area)
+Std_Conve,Std Convexity,Momepy,Diversity,Std,Standard deviation of convexity (diversity)
+Mean_Recta,Mean Rectangularity,Momepy,Shape,Mean,Mean rectangularity (similarity to rectangular shape)
+Std_Recta,Std Rectangularity,Momepy,Diversity,Std,Standard deviation of rectangularity (diversity)
+Mean_Squ_1,Mean Square Compactness,Momepy,Shape,Mean,Mean square compactness index
+Std_Squ_1,Std Square Compactness,Momepy,Diversity,Std,Standard deviation of square compactness (diversity)
+Mean_Centr,Mean Centroid-Corners Distance (Mean),Momepy,Shape,Mean,Mean of distances from building centroid to corners
+Std_Centr,Std Centroid-Corners Distance (Mean),Momepy,Diversity,Std,Standard deviation of mean centroid-corners distances (diversity)
+Mean_CentS,Mean Centroid-Corners Distance (Std),Momepy,Shape,Mean,Mean of standard deviations of centroid-corners distances
+Std_CentS,Std Centroid-Corners Distance (Std),Momepy,Diversity,Std,Standard deviation of std centroid-corners distances (diversity)
+Mean_CrtYd,Mean Courtyard Index,Momepy,Shape,Mean,Mean courtyard index (ratio of courtyard area to building area)
+Std_CrtYd,Std Courtyard Index,Momepy,Diversity,Std,Standard deviation of courtyard index (diversity)
+Mean_Facad,Mean Facade Ratio,Momepy,Shape,Mean,Mean facade ratio (perimeter to area ratio)
+Std_Facad,Std Facade Ratio,Momepy,Diversity,Std,Standard deviation of facade ratio (diversity)
+Mean_Fract,Mean Fractal Dimension,Momepy,Shape,Mean,Mean fractal dimension (complexity measure based on area and perimeter)
+Std_Fract,Std Fractal Dimension,Momepy,Diversity,Std,Standard deviation of fractal dimension (diversity)
+Mean_ShpId,Mean Shape Index,Momepy,Shape,Mean,Mean shape index (ratio of area to area of circle with same perimeter)
+Std_ShpId,Std Shape Index,Momepy,Diversity,Std,Standard deviation of shape index (diversity)
+Mean_FormF,Mean Form Factor,Momepy,Shape,Mean,"Mean form factor (surface area to volume ratio, 3D compactness indicator)"
+Std_FormF,Std Form Factor,Momepy,Diversity,Std,Standard deviation of form factor (diversity)
+Mean_H2F,Mean Height-to-Footprint Ratio,Momepy,Shape,Mean,Mean height-to-footprint ratio (height / sqrt(footprint_area))
+Std_H2F,Std Height-to-Footprint Ratio,Momepy,Diversity,Std,Standard deviation of height-to-footprint ratio (diversity)
+Mean_Corne,Mean Corners,Momepy,Shape,Mean,Mean number of corners per building
+Max_Corne,Max Corners,Momepy,Shape,Max,Maximum number of corners in grid cell
+Std_Corne,Std Corners,Momepy,Diversity,Std,Standard deviation of corner counts (diversity)
+Mean_Orien,Mean Orientation,Momepy,Spatial Distribution,Mean,"Mean building orientation angle (degrees, computed using circular mean)"
+Std_Orien,Std Orientation,Momepy,Diversity,Std,"Standard deviation of building orientation (diversity, computed using circular std)"
+Mean_Align,Mean Building Alignment,Momepy,Spatial Distribution,Mean,Mean deviation of building orientation from adjacent buildings (degrees)
+Std_Align,Std Building Alignment,Momepy,Diversity,Std,Standard deviation of building alignment deviations (diversity)
+Mean_IBDis,Mean Interbuilding Distance,Momepy,Spatial Distribution,Mean,Mean distance between adjacent buildings within neighborhood (meters)
+Std_IBDis,Std Interbuilding Distance,Momepy,Diversity,Std,Standard deviation of interbuilding distances (diversity)
+Mean_NbDis,Mean Neighbor Distance,Momepy,Spatial Distribution,Mean,Mean distance to adjacent buildings based on spatial graph (meters)
+Std_NbDis,Std Neighbor Distance,Momepy,Diversity,Std,Standard deviation of neighbor distances (diversity)
+Mean_Neigh,Mean Neighbor Count,Momepy,Spatial Distribution,Mean,Mean number of neighbors captured by spatial graph
+Max_Neigh,Max Neighbor Count,Momepy,Spatial Distribution,Max,Maximum number of neighbors in grid cell
+Std_Neigh,Std Neighbor Count,Momepy,Diversity,Std,Standard deviation of neighbor counts (diversity)
+Mean_BAdj,Mean Building Adjacency,Momepy,Spatial Distribution,Mean, Mean neighborhood fragmentation ratio (unique building clusters / total neighbors)
+Std_BAdj,Std Building Adjacency,Momepy,Diversity,Std,"Standard deviation of building adjacency ratios (diversity)"
+BldgDens,Building Density,Momepy,Intensity,Density,Number of buildings per unit area (count/m²)
+CoverRatio,Building Coverage Ratio,Momepy,Intensity,Ratio,Ratio of building footprint area to grid cell area (0-1)
+OpenRatio,Open Space Ratio,Momepy,Intensity,Ratio,Ratio of open space to grid cell area (0-1)
+PerimDens,Perimeter Density,Momepy,Intensity,Density,Total building perimeter per unit area (m/m²)
+CourtDens,Courtyard Density,Momepy,Intensity,Density,Total courtyard area per unit area (m²/m²)
+Mean_VolDe,Mean Volume Density,Momepy,Intensity,Mean,Mean building-level volume density from WSF3D ~90m raster (m³/m² footprint)
+Std_VolDe,Std Volume Density,Momepy,Diversity,Std,Standard deviation of building-level volume densities (diversity indicator)
+ShareDens,Shared Walls Density,Momepy,Intensity,Density,Total shared wall length per unit area (m/sq.m)
+Mean_Share,Mean Shared Walls,Momepy,Intensity,Mean,Mean length of shared walls per building (meters)
+Max_Share,Max Shared Walls,Momepy,Intensity,Max,Maximum shared wall length (meters)
+Std_Share,Std Shared Walls,Momepy,Diversity,Std,Standard deviation of shared wall lengths (diversity)
+FloorARat,Floor Area Ratio,Momepy,Intensity,Ratio,"Floor area ratio (total floor area / grid cell area, indicates development intensity)"
+H_sum,Sum Building Height,WSF3D,Intensity,Sum,"Total building height from WSF3D (meters, cumulative)"
+LC_Shrub,Shrubs Cover,Copernicus,Intensity,Class,Percentage of shrubland in grid cell (0-100%)
+LC_Herb,Herbaceous Cover,Copernicus,Intensity,Class,Percentage of herbaceous vegetation in grid cell (0-100%)
+LC_Crop,Cropland Cover,Copernicus,Intensity,Class,Percentage of cropland in grid cell (0-100%)
+LC_Built,Built-up Cover,Copernicus,Intensity,Class,Percentage of built-up area in grid cell (0-100%)
+LC_Bare,Bare/Sparse Vegetation Cover,Copernicus,Intensity,Class,Percentage of bare/sparse vegetation in grid cell (0-100%)
+LC_Snow,Snow and Ice Cover,Copernicus,Intensity,Class,Percentage of snow/ice in grid cell (0-100%)
+LC_Water,Permanent Water Cover,Copernicus,Intensity,Class,Percentage of permanent water in grid cell (0-100%)
+LC_Wetlnd,Wetland Cover,Copernicus,Intensity,Class,Percentage of wetland in grid cell (0-100%)
+LC_Moss,Moss and Lichen Cover,Copernicus,Intensity,Class,Percentage of moss/lichen in grid cell (0-100%)
+LC_FCEvNd,Closed Forest Evergreen Needleleaf,Copernicus,Intensity,Class,Percentage of closed evergreen needleleaf forest (0-100%)
+LC_FCEvBr,Closed Forest Evergreen Broadleaf,Copernicus,Intensity,Class,Percentage of closed evergreen broadleaf forest (0-100%)
+LC_FCDcNd,Closed Forest Deciduous Needleleaf,Copernicus,Intensity,Class,Percentage of closed deciduous needleleaf forest (0-100%)
+LC_FCDcBr,Closed Forest Deciduous Broadleaf,Copernicus,Intensity,Class,Percentage of closed deciduous broadleaf forest (0-100%)
+LC_FCMix,Closed Forest Mixed,Copernicus,Intensity,Class,Percentage of closed mixed forest (0-100%)
+LC_FCUnd,Closed Forest Unknown Type,Copernicus,Intensity,Class,Percentage of closed forest unknown type (0-100%)
+LC_FOEvNd,Open Forest Evergreen Needleleaf,Copernicus,Intensity,Class,Percentage of open evergreen needleleaf forest (0-100%)
+LC_FOEvBr,Open Forest Evergreen Broadleaf,Copernicus,Intensity,Class,Percentage of open evergreen broadleaf forest (0-100%)
+LC_FODcNd,Open Forest Deciduous Needleleaf,Copernicus,Intensity,Class,Percentage of open deciduous needleleaf forest (0-100%)
+LC_FODcBr,Open Forest Deciduous Broadleaf,Copernicus,Intensity,Class,Percentage of open deciduous broadleaf forest (0-100%)
+LC_FOMix,Open Forest Mixed,Copernicus,Intensity,Class,Percentage of open mixed forest (0-100%)
+LC_FOUnd,Open Forest Unknown Type,Copernicus,Intensity,Class,Percentage of open forest unknown type (0-100%)
+LC_Ocean,Ocean,Copernicus,Intensity,Class,Percentage of ocean in grid cell (0-100%)
+LCF_Bare,Bare/Sparse Vegetation Fraction,Copernicus,Intensity,Fraction,Continuous bare/sparse vegetation cover fraction (0-100%)
+LCF_Crop,Cropland Fraction,Copernicus,Intensity,Fraction,Continuous cropland cover fraction (0-100%)
+LCF_Grass,Grassland Fraction,Copernicus,Intensity,Fraction,Continuous grassland cover fraction (0-100%)
+LCF_Moss,Moss and Lichen Fraction,Copernicus,Intensity,Fraction,Continuous moss/lichen cover fraction (0-100%)
+LCF_Water,Permanent Water Fraction,Copernicus,Intensity,Fraction,Continuous permanent water cover fraction (0-100%)
+LCF_SeaWtr,Seasonal Water Fraction,Copernicus,Intensity,Fraction,Continuous seasonal water cover fraction (0-100%)
+LCF_Shrub,Shrubland Fraction,Copernicus,Intensity,Fraction,Continuous shrubland cover fraction (0-100%)
+LCF_Snow,Snow and Ice Fraction,Copernicus,Intensity,Fraction,Continuous snow/ice cover fraction (0-100%)
+LCF_Tree,Tree Cover Fraction,Copernicus,Intensity,Fraction,Continuous tree cover fraction (0-100%)
+LCF_Built,Built-up Cover Fraction,Copernicus,Intensity,Fraction,Continuous built-up cover fraction (0-100%)
+Pop2022,Population 2022,WorldPop,Intensity,Count,Population count from WorldPop 2022 (people per grid cell)
+LC_Shannon,Land Cover Shannon Diversity,Momepy,Diversity,Index,Shannon entropy index of land cover diversity (higher = more diverse)
+StreetDens,Street Density,Momepy,Intensity,Density,Total street length per unit area (m/m²)
+NodeDens,Node Density,Momepy,Intensity,Density,Number of network nodes per unit area (count/m²)
+StreetsPN,Streets Per Node,Momepy,Intensity,Ratio,Average number of street segments per node
+SegmentDen,Segment Density,Momepy,Intensity,Density,Number of street segments per unit area (count/m²)
+PlotDens,Plot Density,Momepy,Intensity,Density,Number of plots (polygonized areas) per unit area (count/m²)
+BldgDensN,Building Density (Network),Momepy,Intensity,Density,Building footprint area per unit area from network analysis (ratio)
+PlotFrag,Plot Fragmentation,Momepy,Intensity,Ratio,Ratio of plot density to building density (fragmentation indicator)
+DeadendDen,Dead End Density,Momepy,Connectivity,Density,Number of dead ends (degree-1 nodes) per unit area (count/m²)
+InterDens,Intersection Density,Momepy,Connectivity,Density,Number of intersections (degree ≥ 3) per unit area (count/m²)
+Ratio3way,3-Way Intersection Ratio,Momepy,Connectivity,Ratio,Ratio of 3-way intersections to total intersections
+Ratio4way,4-Way Intersection Ratio,Momepy,Connectivity,Ratio,Ratio of 4-way intersections to total intersections
+CuldesacR,Cul-de-sac Ratio,Momepy,Connectivity,Ratio,Ratio of dead ends to intersections
+StrWidth,Street Width,Momepy,Dimension,Mean,Mean street width measured perpendicular to street centerline (meters)
+StrOpen,Street Openness,Momepy,Dimension,Mean,Mean street openness ratio (proportion of ticks not reaching buildings)
+StrLinM,Street Linearity Mean,Momepy,Shape,Mean,Mean street linearity (ratio of euclidean distance to actual length)
+StrOrientM,Street Orientation Mean,Momepy,Spatial Distribution,Mean,"Mean street orientation angle (degrees, computed using circular mean)"
+BldgStrAM,Building-Street Alignment Mean,Momepy,Spatial Distribution,Mean,Mean deviation of building orientation from nearest street orientation (degrees)
+StrWidthD,Street Width Deviation,Momepy,Diversity,Std,Mean standard deviation of street width (diversity indicator)
+StrLinS,Street Linearity Std,Momepy,Diversity,Std,Standard deviation of street linearity (diversity)
+StrOrientS,Street Orientation Std,Momepy,Diversity,Std,"Standard deviation of street orientation (diversity, computed using circular std)"
+BldgStrAS,Building-Street Alignment Std,Momepy,Diversity,Std,Standard deviation of building-street alignment (diversity)
+DeadendDen,Dead End Density,Momepy,Connectivity,Density,Number of dead ends (degree-1 nodes) per unit area (count/m²)
+InterDens,Intersection Density,Momepy,Connectivity,Density,Number of intersections (degree ≥ 3) per unit area (count/m²)
+Ratio3way,3-Way Intersection Ratio,Momepy,Connectivity,Ratio,Ratio of 3-way intersections to total intersections
+Ratio4way,4-Way Intersection Ratio,Momepy,Connectivity,Ratio,Ratio of 4-way intersections to total intersections
+CuldesacR,Cul-de-sac Ratio,Momepy,Connectivity,Ratio,Ratio of dead ends to intersections
+BtwCentM,Betweenness Centrality Mean,Momepy,Connectivity,Mean,Mean node betweenness centrality (measures nodes on shortest paths)
+BtwCentX,Betweenness Centrality Max,Momepy,Connectivity,Max,Maximum node betweenness centrality in grid cell
+BtwCentS,Betweenness Centrality Std,Momepy,Diversity,Std,Standard deviation of node betweenness centrality (diversity)
+ClsCentM,Closeness Centrality Mean,Momepy,Connectivity,Mean,Mean node closeness centrality (measures proximity to all nodes)
+ClsCentX,Closeness Centrality Max,Momepy,Connectivity,Max,Maximum node closeness centrality in grid cell
+ClsCentS,Closeness Centrality Std,Momepy,Diversity,Std,Standard deviation of node closeness centrality (diversity)
+StrCentM,Straightness Centrality Mean,Momepy,Connectivity,Mean,Mean node straightness centrality (ratio of euclidean to network distance)
+StrCentX,Straightness Centrality Max,Momepy,Connectivity,Max,Maximum node straightness centrality in grid cell
+StrCentS,Straightness Centrality Std,Momepy,Diversity,Std,Standard deviation of node straightness centrality (diversity)
+ClusterM,Clustering Coefficient Mean,Momepy,Connectivity,Mean,Mean clustering coefficient (measures local connectivity density)
+ClusterS,Clustering Coefficient Std,Momepy,Diversity,Std,Standard deviation of clustering coefficient (diversity)
+NdNbDenM,Node Neighbour Density Mean,Momepy,Connectivity,Mean,Mean local node density in spatial neighborhood
+NdNbDenS,Node Neighbour Density Std,Momepy,Diversity,Std,Standard deviation of local node density (diversity)
+MeanDeg,Mean Node Degree,Momepy,Connectivity,Mean,Mean node degree (average number of edges per node)
+StdDeg,Std Node Degree,Momepy,Diversity,Std,Standard deviation of node degree (diversity indicator)
+MeanNdDst,Mean Node Distance,Momepy,Connectivity,Mean,Mean shortest path distance between all node pairs (meters)
+Cyclomat,Cyclomatic Complexity,Momepy,Connectivity,Value,Cyclomatic complexity (number of independent cycles in network)
+EdgeNdRat,Edge-Node Ratio,Momepy,Connectivity,Ratio,Ratio of edges to nodes (measures connectivity density)
+GammaIdx,Gamma Index,Momepy,Connectivity,Index,Gamma index (ratio of actual edges to maximum possible edges)
+Meshedness,Meshedness Coefficient,Momepy,Connectivity,Index,Meshedness coefficient (measures network redundancy and connectivity)
+EdgeBtwM,Edge Betweenness Mean,Momepy,Connectivity,Mean,Mean edge betweenness centrality (edges on shortest paths)
+EdgeClsM,Edge Closeness Mean,Momepy,Connectivity,Mean,Mean edge closeness centrality
+EdgeStrM,Edge Straightness Mean,Momepy,Connectivity,Mean,Mean edge straightness (linearity of street segments)
+COINSCnt,COINS Street Count,Momepy,Connectivity,Count,Number of continuous street segments identified by COINS algorithm
+COINSLen,COINS Mean Length,Momepy,Connectivity,Mean,"Mean length of continuous street segments (COINS, meters)"
+CuldesacL,Cul-de-sac Length,Momepy,Connectivity,Sum,"Total length of cul-de-sac streets (dead-end streets, meters)"

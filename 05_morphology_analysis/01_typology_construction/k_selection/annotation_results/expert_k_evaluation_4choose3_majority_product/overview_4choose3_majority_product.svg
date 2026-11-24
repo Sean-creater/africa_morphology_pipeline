@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="650" viewBox="0 0 1040 650">
+<rect width="100%" height="100%" fill="white"/>
+<text x="82" y="30" font-family="Arial" font-size="20" fill="#222">4 choose 3 overview: majority-vote product</text>
+<line x1="82" y1="572" x2="780" y2="572" stroke="#222"/>
+<line x1="82" y1="52" x2="82" y2="572" stroke="#222"/>
+<line x1="82" y1="572.0" x2="780" y2="572.0" stroke="#e6e6e6"/>
+<text x="70" y="577.0" text-anchor="end" font-family="Arial" font-size="14">0.00</text>
+<line x1="82" y1="442.0" x2="780" y2="442.0" stroke="#e6e6e6"/>
+<text x="70" y="447.0" text-anchor="end" font-family="Arial" font-size="14">0.25</text>
+<line x1="82" y1="312.0" x2="780" y2="312.0" stroke="#e6e6e6"/>
+<text x="70" y="317.0" text-anchor="end" font-family="Arial" font-size="14">0.50</text>
+<line x1="82" y1="182.0" x2="780" y2="182.0" stroke="#e6e6e6"/>
+<text x="70" y="187.0" text-anchor="end" font-family="Arial" font-size="14">0.75</text>
+<line x1="82" y1="52.0" x2="780" y2="52.0" stroke="#e6e6e6"/>
+<text x="70" y="57.0" text-anchor="end" font-family="Arial" font-size="14">1.00</text>
+<polyline fill="none" stroke="#b2182b" stroke-width="2.7" points="82.0,373.1 106.9,408.2 131.9,416.0 156.8,417.3 181.7,468.0 206.6,426.4 231.6,361.4 256.5,468.0 281.4,468.0 306.4,468.0 331.3,396.5 356.2,481.0 381.1,443.3 406.1,508.3 431.0,444.6 455.9,390.0 480.9,443.3 505.8,501.8 530.7,539.5 555.6,463.0 580.6,515.3 605.5,409.2 630.4,502.7 655.4,450.3 680.3,380.0 705.2,479.6 730.1,446.6 755.1,443.8 780.0,554.7"/>
+<circle cx="231.6" cy="361.4" r="4" fill="#b2182b"/>
+<line x1="810" y1="78" x2="840" y2="78" stroke="#b2182b" stroke-width="3"/>
+<text x="850" y="83" font-family="Arial" font-size="13">omit 2026-05-28T13-44-27</text>
+<text x="850" y="101" font-family="Arial" font-size="13" fill="#555">best k=8, product=0.405</text>
+<polyline fill="none" stroke="#2166ac" stroke-width="2.7" points="82.0,361.4 106.9,408.2 131.9,400.4 156.8,426.4 181.7,461.5 206.6,416.0 231.6,361.4 256.5,416.0 281.4,405.6 306.4,461.5 331.3,338.0 356.2,453.7 381.1,431.6 406.1,481.0 431.0,444.6 455.9,351.0 480.9,343.2 505.8,478.4 530.7,500.5 555.6,453.1 580.6,468.0 605.5,341.4 630.4,468.0 655.4,328.6 680.3,396.0 705.2,364.0 730.1,418.8 755.1,408.8 780.0,511.3"/>
+<circle cx="655.4" cy="328.6" r="4" fill="#2166ac"/>
+<line x1="810" y1="140" x2="840" y2="140" stroke="#2166ac" stroke-width="3"/>
+<text x="850" y="145" font-family="Arial" font-size="13">omit 2026-05-29T12-21-34</text>
+<text x="850" y="163" font-family="Arial" font-size="13" fill="#555">best k=25, product=0.468</text>
+<polyline fill="none" stroke="#1b7837" stroke-width="2.7" points="82.0,361.4 106.9,417.3 131.9,400.4 156.8,417.3 181.7,487.5 206.6,395.2 231.6,361.4 256.5,390.0 281.4,416.0 306.4,461.5 331.3,338.0 356.2,471.9 381.1,419.9 406.1,471.9 431.0,462.8 455.9,377.0 480.9,343.2 505.8,466.7 530.7,487.5 555.6,453.1 580.6,468.0 605.5,327.8 630.4,416.0 655.4,315.1 680.3,332.0 705.2,375.6 730.1,390.9 755.1,385.5 780.0,494.0"/>
+<circle cx="655.4" cy="315.1" r="4" fill="#1b7837"/>
+<line x1="810" y1="202" x2="840" y2="202" stroke="#1b7837" stroke-width="3"/>
+<text x="850" y="207" font-family="Arial" font-size="13">omit 2026-06-01T22-15-41</text>
+<text x="850" y="225" font-family="Arial" font-size="13" fill="#555">best k=25, product=0.494</text>
+<polyline fill="none" stroke="#7b3294" stroke-width="2.7" points="82.0,373.1 106.9,417.3 131.9,416.0 156.8,444.6 181.7,481.0 206.6,426.4 231.6,408.2 256.5,468.0 281.4,457.6 306.4,468.0 331.3,396.5 356.2,462.8 381.1,478.4 406.1,517.4 431.0,462.8 455.9,416.0 480.9,443.3 505.8,466.7 530.7,552.5 555.6,482.9 580.6,534.2 605.5,422.8 630.4,485.3 655.4,436.8 680.3,444.0 705.2,491.1 730.1,474.5 755.1,467.1 780.0,554.7"/>
+<circle cx="82.0" cy="373.1" r="4" fill="#7b3294"/>
+<line x1="810" y1="264" x2="840" y2="264" stroke="#7b3294" stroke-width="3"/>
+<text x="850" y="269" font-family="Arial" font-size="13">omit 2026-06-04T08-54-56</text>
+<text x="850" y="287" font-family="Arial" font-size="13" fill="#555">best k=2, product=0.383</text>
+<text x="82.0" y="602" text-anchor="middle" font-family="Arial" font-size="13">2</text>
+<text x="131.9" y="602" text-anchor="middle" font-family="Arial" font-size="13">4</text>
+<text x="181.7" y="602" text-anchor="middle" font-family="Arial" font-size="13">6</text>
+<text x="231.6" y="602" text-anchor="middle" font-family="Arial" font-size="13">8</text>
+<text x="281.4" y="602" text-anchor="middle" font-family="Arial" font-size="13">10</text>
+<text x="331.3" y="602" text-anchor="middle" font-family="Arial" font-size="13">12</text>
+<text x="381.1" y="602" text-anchor="middle" font-family="Arial" font-size="13">14</text>
+<text x="431.0" y="602" text-anchor="middle" font-family="Arial" font-size="13">16</text>
+<text x="480.9" y="602" text-anchor="middle" font-family="Arial" font-size="13">18</text>
+<text x="530.7" y="602" text-anchor="middle" font-family="Arial" font-size="13">20</text>
+<text x="580.6" y="602" text-anchor="middle" font-family="Arial" font-size="13">22</text>
+<text x="630.4" y="602" text-anchor="middle" font-family="Arial" font-size="13">24</text>
+<text x="680.3" y="602" text-anchor="middle" font-family="Arial" font-size="13">26</text>
+<text x="730.1" y="602" text-anchor="middle" font-family="Arial" font-size="13">28</text>
+<text x="780.0" y="602" text-anchor="middle" font-family="Arial" font-size="13">30</text>
+<text x="431.0" y="628" text-anchor="middle" font-family="Arial" font-size="16">Number of clusters (k)</text>
+<text x="22" y="312.0" text-anchor="middle" font-family="Arial" font-size="16" transform="rotate(-90 22 312.0)">Product score</text>
+</svg>

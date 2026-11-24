@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "africa-hex-grid-workflow"
+version = "1.0.0"
+description = "Hexagonal grid generation and raster data attachment for urban morphology analysis across Sub-Saharan Africa"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "geopandas>=0.13.0",
+    "rasterio>=1.3.0",
+    "fiona>=1.9.0",
+    "shapely>=2.0.0",
+    "numpy>=1.24.0",
+    "tqdm>=4.64.0",
+    "exactextract>=0.2.0",
+]
+
+[project.scripts]
+africa-hex-grid = "africa_hex_grid_workflow.pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["africa_hex_grid_workflow*"]

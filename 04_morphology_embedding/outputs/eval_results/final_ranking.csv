@@ -1,0 +1,7 @@
+Method,N_pairs,PRA,Spearman_rho,Triplet_Acc,N_triplets
+M1_PCA,535,68.58,0.4954,78.75,546
+M3_FrozenViT,535,73.07,0.6099,77.66,546
+M5_SelfSupDistill,535,68.17,0.4979,78.21,546
+M2_Triplet,535,72.75,0.6003,80.4,546
+M4_Triplet,535,75.48,0.6657,82.05,546
+M6_Triplet,535,77.73,0.7173,82.42,546

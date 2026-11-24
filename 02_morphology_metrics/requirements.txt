@@ -1,0 +1,52 @@
+# Core geospatial
+geopandas>=0.14.0
+shapely>=2.0.0
+fiona>=1.9.0
+pyproj>=3.6.0
+rtree>=1.0.0
+rasterio>=1.3.0
+
+# Morphology and network analysis
+momepy>=0.7.0
+networkx>=3.0
+
+# Optional, strongly recommended: enables the faster igraph-backed
+# connectivity path (africa_morphology_metrics.connectivity). The pipeline
+# falls back to pure NetworkX automatically if this is not installed.
+python-igraph>=0.11.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+libpysal>=4.9.0
+
+# OSM PBF reading: pyogrio is tried first (GDAL-backed, substantially
+# faster), with pyrosm as an automatic fallback if pyogrio fails to read a
+# given PBF.
+pyogrio>=0.7.0
+pyrosm>=0.6.0
+
+# Google Cloud Storage access (Open Buildings extraction)
+gcsfs>=2023.10.0
+fsspec>=2023.10.0
+google-cloud-storage>=2.10.0
+google-auth>=2.15.0
+
+# S2 geocoding (Open Buildings S2-cell bucket layout)
+s2sphere>=0.2.5
+
+# Config schema validation
+pydantic>=2.0.0
+
+# Utilities
+tqdm>=4.65.0
+requests>=2.28.0
+
+# The vendored `geoworkflow` package (top-level `geoworkflow/`) provides the
+# underlying OSM and Open Buildings extraction processors and has its own
+# environment.yml / pyproject.toml with additional dependencies (e.g.
+# earthengine-api) that are not required for this pipeline's confirmed-live
+# code paths. Install it with `pip install -e geoworkflow/` if you want its
+# console tools too; otherwise this package's own code imports it directly
+# via the vendored `geoworkflow/src` path.

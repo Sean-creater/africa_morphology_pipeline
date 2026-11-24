@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "africa-morphology-metrics"
+version = "1.0.0"
+description = "Building, street-network, connectivity, and spatial-distribution morphology metrics for African cities, aggregated to a 250 m hexagonal grid"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "geopandas>=0.14.0",
+    "shapely>=2.0.0",
+    "fiona>=1.9.0",
+    "pyproj>=3.6.0",
+    "rtree>=1.0.0",
+    "rasterio>=1.3.0",
+    "momepy>=0.7.0",
+    "networkx>=3.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "libpysal>=4.9.0",
+    "pyogrio>=0.7.0",
+    "pyrosm>=0.6.0",
+    "pydantic>=2.0.0",
+    "gcsfs>=2023.10.0",
+    "fsspec>=2023.10.0",
+    "google-cloud-storage>=2.10.0",
+    "google-auth>=2.15.0",
+    "s2sphere>=0.2.5",
+    "tqdm>=4.65.0",
+    "requests>=2.28.0",
+]
+
+[project.optional-dependencies]
+igraph = ["python-igraph>=0.11.0"]
+dev = ["pytest>=7.0.0"]
+
+[project.scripts]
+africa-morphology-metrics = "africa_morphology_metrics.pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["africa_morphology_metrics*", "geoworkflow*"]

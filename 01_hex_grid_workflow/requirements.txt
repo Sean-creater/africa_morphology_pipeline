@@ -1,0 +1,15 @@
+# Minimal runtime dependencies (matches actual imports in
+# africa_hex_grid_workflow/*.py — no unused geospatial extras).
+#
+# GDAL/GEOS/PROJ system libraries are pulled in transitively by geopandas,
+# rasterio, and fiona; installing via conda-forge (see environment.yml) is
+# the most reliable way to get compatible binary builds of these. A pip-only
+# install works too as long as your platform has prebuilt wheels for
+# rasterio and fiona.
+geopandas>=0.13.0
+rasterio>=1.3.0
+fiona>=1.9.0
+shapely>=2.0.0
+numpy>=1.24.0
+tqdm>=4.64.0
+exactextract>=0.2.0

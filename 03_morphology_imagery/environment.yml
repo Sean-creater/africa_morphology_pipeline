@@ -1,0 +1,16 @@
+name: africa_morphology_imagery
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - geopandas
+  - pandas
+  - numpy
+  - matplotlib
+  - pillow
+  - tqdm
+  - rasterio
+  - requests
+  - pip
+  - pip:
+      - earthengine-api

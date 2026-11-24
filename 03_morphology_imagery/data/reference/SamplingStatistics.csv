@@ -1,0 +1,48 @@
+City,Country,Total_Cells,Sampled_Cells,Sampling_Rate,Size_Category,Shapefile
+Abidjan,Côte dIvoire,3290,180,5.5%,large,Abidjan_sampled_cells.shp
+Accra,Ghana,10322,180,1.7%,large,Accra_sampled_cells.shp
+Addis Ababa,Ethiopia,3892,180,4.6%,large,Addis Ababa_sampled_cells.shp
+Algiers,Algeria,3992,180,4.5%,large,Algiers_sampled_cells.shp
+Apam,Ghana,119,55,46.2%,small,Apam_sampled_cells.shp
+Arusha,Tanzania,2165,115,5.3%,medium,Arusha_sampled_cells.shp
+Aswan,Egypt,262,55,21.0%,small,Aswan_sampled_cells.shp
+Bafoussam,Cameroon,9850,180,1.8%,large,Bafoussam_sampled_cells.shp
+Bahir Dar,Ethiopia,503,115,22.9%,medium,Bahir Dar_sampled_cells.shp
+Bawku,Ghana,394,55,14.0%,small,Bawku_sampled_cells.shp
+Bolgatanga,Ghana,896,115,12.8%,medium,Bolgatanga_sampled_cells.shp
+Bukavu,Democratic Republic of the Congo,791,115,14.5%,medium,Bukavu_sampled_cells.shp
+Bukoba,Tanzania,366,55,15.0%,small,Bukoba_sampled_cells.shp
+Cairo,Egypt,20906,180,0.9%,large,Cairo_sampled_cells.shp
+Dakar,Senegal,2233,115,5.2%,medium,Dakar_sampled_cells.shp
+Dar es Salaam,Tanzania,7085,180,2.5%,large,Dar es Salaam_sampled_cells.shp
+Durban,South Africa,5071,180,3.5%,large,Durban_sampled_cells.shp
+Francistown,Botswana,199,55,27.6%,small,Francistown_sampled_cells.shp
+Ho,Ghana,437,55,12.6%,small,Ho_sampled_cells.shp
+Iringa,Tanzania,267,55,20.6%,small,Iringa_sampled_cells.shp
+Johannesburg,South Africa,14994,180,1.2%,large,Johannesburg_sampled_cells.shp
+Kampala,Uganda,6871,180,2.6%,large,Kampala_sampled_cells.shp
+Kankan,Guinea,342,55,16.1%,small,Kankan_sampled_cells.shp
+Kaolack,Senegal,263,55,20.9%,small,Kaolack_sampled_cells.shp
+Kara,Togo,570,115,20.2%,medium,Kara_sampled_cells.shp
+Kigali,Rwanda,7469,180,2.4%,large,Kigali_sampled_cells.shp
+Kinshasa,Democratic Republic of the Congo,3055,180,5.9%,large,Kinshasa_sampled_cells.shp
+Korhogo,Côte dIvoire,598,115,19.2%,medium,Korhogo_sampled_cells.shp
+Lagos,Nigeria,9375,180,1.9%,large,Lagos_sampled_cells.shp
+Livingstone,Zambia,285,55,19.3%,small,Livingstone_sampled_cells.shp
+Luanda,Angola,6139,180,2.9%,large,Luanda_sampled_cells.shp
+Lusaka,Zambia,4275,180,4.2%,large,Lusaka_sampled_cells.shp
+Maradi,Niger,366,55,15.0%,small,Maradi_sampled_cells.shp
+Maun,Botswana,425,55,12.9%,small,Maun_sampled_cells.shp
+Mbarara,Uganda,538,115,21.4%,medium,Mbarara_sampled_cells.shp
+Mwanza,Tanzania,64,54,84.4%,small,Mwanza_sampled_cells.shp
+Nairobi,Kenya,11586,180,1.6%,large,Nairobi_sampled_cells.shp
+Oran,Algeria,904,115,12.7%,medium,Oran_sampled_cells.shp
+Ouagadougou,Burkina Faso,3910,180,4.6%,large,Ouagadougou_sampled_cells.shp
+Parakou,Benin,863,115,13.3%,medium,Parakou_sampled_cells.shp
+Pointe Noire,Republic of Congo,1468,115,7.8%,medium,Pointe Noire_sampled_cells.shp
+Sfax,Tunisia,1383,115,8.3%,medium,Sfax_sampled_cells.shp
+Sokode,Togo,277,55,19.9%,small,Sokode_sampled_cells.shp
+Tunis,Tunisia,4025,180,4.5%,large,Tunis_sampled_cells.shp
+Wa,Ghana,555,115,20.7%,medium,Wa_sampled_cells.shp
+Yaounde,Cameroon,2555,115,4.5%,medium,Yaounde_sampled_cells.shp
+Ziguinchor,Senegal,183,55,30.1%,small,Ziguinchor_sampled_cells.shp

@@ -1,0 +1,36 @@
+{
+  "fold_results": [
+    {
+      "fold": 1,
+      "best_val_loss": 0.04762045790751775,
+      "n_train": 4395,
+      "n_val": 1099
+    },
+    {
+      "fold": 2,
+      "best_val_loss": 0.04261536068386502,
+      "n_train": 4395,
+      "n_val": 1099
+    },
+    {
+      "fold": 3,
+      "best_val_loss": 0.04495708727174335,
+      "n_train": 4395,
+      "n_val": 1099
+    },
+    {
+      "fold": 4,
+      "best_val_loss": 0.04775528030263053,
+      "n_train": 4395,
+      "n_val": 1099
+    },
+    {
+      "fold": 5,
+      "best_val_loss": 0.04571363412671619,
+      "n_train": 4396,
+      "n_val": 1098
+    }
+  ],
+  "mean_val_loss": 0.04573236405849457,
+  "std_val_loss": 0.001896006511454011
+}

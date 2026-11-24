@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "africa-morphology-imagery"
+version = "1.0.0"
+description = "Image-dataset construction pipeline for African urban morphology grid cells: stratified sampling, Sentinel-2 imagery download, multi-style rendering, and anchor-based annotation-pair generation."
+requires-python = ">=3.10"
+dependencies = [
+    "geopandas",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "pillow",
+    "tqdm",
+    "rasterio",
+    "requests",
+    "earthengine-api",
+]
+
+[tool.setuptools.packages.find]
+include = ["africa_morphology_imagery*"]
